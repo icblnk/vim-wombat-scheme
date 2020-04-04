@@ -72,5 +72,5 @@ hi! link CursorColumn CursorLine
 hi! link NonText LineNr
 
 " Awesome 80 characters delemiter
-execute "set colorcolumn=" . join(range(81,335), ',')
+execute "set colorcolumn=" . join(range(81,120), ',')
 hi ColorColumn guibg=#262626 ctermbg=235
